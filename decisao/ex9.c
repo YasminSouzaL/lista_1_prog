@@ -25,10 +25,10 @@ int main() {
         y = 2;
     }else if (x <= 5) {
         //y = pow(x, 2);
-          Y= x*x;
+          y= x*x;
     }else{
         //y = pow(x, 3);
-        Y= x*x*x;
+        y= x*x*x;
     }
     printf("O valor de y e: %.2f", y);
     return 0;
