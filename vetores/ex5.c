@@ -18,6 +18,7 @@ int main(){
         scanf("%f", &vetor[i]);
     }
     scanf("%d", &opcao);
+    printf("\n");
     switch(opcao){
         case 1:
             for(i=0;i<15;i++){
