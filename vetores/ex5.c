@@ -9,6 +9,7 @@ Saída:A saída de seu programa deverá ser, caso 1, o vetor será apresentado e
 do tipo float, com duas casas decimais depois da vírgula. Caso 2, será apresentado em
 ordem inversa do tipo float com duas casas decimais depois da vírgula; tudo com
 espaçamento entre os números e sem pulo de linha.*/
+
 #include <stdio.h>
 int main(){
     float vetor[15];

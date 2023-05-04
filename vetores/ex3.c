@@ -4,10 +4,17 @@ Caso o usuário digite um valor fora do intervalo de [0, 9] o programa deve insi
 seja fornecido um valor válido, entre 0 e 9 (do while).
 Em seguida, calcule/exiba a quantidade de números 2, 3 e 5 presentes na sequência.
 (utilize a estrutura de decisão switch).
-Entrada:Seu programa terá como entrada um vetor de 10 posições de números inteiros e
+Entrada
+Seu programa terá como entrada um vetor de 10 posições de números inteiros e
 positivos.
-Saída:A saída de seu programa deverá ser a quantidade de números 2, 3 e 5 presentes no seu
-vetor de entrada, separados por um espaçamento e sem pulo de linha.*/
+Saída
+A saída de seu programa deverá ser a quantidade de números 2, 3 e 5 presentes no seu
+vetor de entrada, separados por um espaçamento e sem pulo de linha.
+Como mostrado no exemplo abaixo:
+ENTRADA                 SAÍDA
+3 3 3 1 1 1 2 5 0 9 2   2 3 1
+2 2 2 2 2 2 2 2 2 2     10 0 0*/
+
 #include <stdio.h>
 int main(){
     int vetor[10], i, dois=0, tres=0, cinco=0;

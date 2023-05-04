@@ -2,6 +2,7 @@
 depois mostre apenas as consoantes lidas.
 Entrada:Seu programa deve ter como entrada um vetor de 10 posições de caracteres.
 Saída:Seu programa deve ter como saída as vogais lidas pela entrada*/
+
 #include <stdio.h>
 int main(){
     char vetor[10];
